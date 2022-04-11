@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+}
+
+.cb {
+    color: black;
+}
+
+.cb1 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    position: static !important;
+}
+.imp1{
+    color: gold;
+    font-size: 25px;
+    cursor: pointer;
+}
+.impMsg{
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 40%;
+    background-color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    display: none;
+}
+.noteCard{
+    position: relative!important;
+}
+.important-section{
+    max-height: 40vh!important;
+    overflow-y: scroll;
+}
+
+@media (max-width:800px) {
+    .navbar {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .name {
+        width: 100%;
+    }
+}
